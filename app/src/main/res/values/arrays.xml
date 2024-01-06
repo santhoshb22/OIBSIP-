@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="length_options">
+        <item>Centimeter to Meter</item>
+        <item>Meter to Centimeter</item>
+        <item>Kilogram to Gram</item>
+        <item>Gram to Kilogram</item>
+        <item>Liter to Milliliter</item>
+        <item>Milliliter to Liter</item>
+        <item>Celsius to Fahrenheit</item>
+        <item>Fahrenheit to Celsius</item>
+
+    </string-array>
+</resources>

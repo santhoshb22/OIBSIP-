@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnitConvertor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#4285F4</item>
+    </style>
+    <style name="CustomSpinnerStyle">
+        <!-- Dropdown arrow color -->
+        <item name="android:dropDownSelector">@color/colorPrimary</item>
+
+        <!-- Padding -->
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+
+        <!-- Text appearance -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+
+        <!-- Other attributes as needed -->
+    </style>
+
+
+    <style name="Theme.UnitConvertor" parent="Base.Theme.UnitConvertor" />
+</resources>
